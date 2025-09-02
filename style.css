@@ -1,0 +1,47 @@
+/* Task 1.1 - Element Selector for Paragraphs */
+p {
+    color: darkgreen;
+    font-size: 18px;
+}
+
+/* Task 1.2 - Element Selector for Headings*/
+h1, h2, h3 {
+    color: navy;
+    text-align: center;
+}
+
+/* Task 2.1 - Class Selector (.highlight) */
+.highlight {
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+/* Task 2.2 - Navigation Styling */
+nav ul {
+    list-style-type: none;
+    padding: 0%;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Task 3.1 - ID Selector (#header) */
+#header {
+    background-image: lightblue;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+/* Task 3.2 - ID Selector for Special Section*/
+/* Styless only the section with id+"specialSection" */
+#specialSection {
+    background-color: lightgray;
+    margin: 20px;
+    padding: 15px;
+    font-weight: bold;
+    color: darkred;
+}
